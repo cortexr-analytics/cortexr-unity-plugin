@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:Toggle label="Track location" name="ToggleLocation" style="display: none;" />
+    <ui:Toggle label="Track rotation" name="ToggleRotation" style="display: none;" />
+    <ui:Toggle label="Track scale" name="ToggleScale" style="display: none;" />
+    <ui:Button text="Update target image data" display-tooltip-when-elided="true" name="ButtonUpdateContextImageData" />
+    <ui:Button text="New configuration" display-tooltip-when-elided="true" name="ButtonNewConfiguration" />
+    <uie:ObjectField label="Configuration" allow-scene-objects="false" usage-hints="None" type="Org.Cortexr.Unity.Models.TargetContentConfigurationSO, CortexrUnityPluginRuntime" name="TargetContentObjectField" />
+    <ui:VisualElement name="TargetConfigurationContainer" style="display: none;" />
+</ui:UXML>

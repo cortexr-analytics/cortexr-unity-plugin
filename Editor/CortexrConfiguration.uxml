@@ -1,0 +1,21 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:Label text="CorteXR Configuration" display-tooltip-when-elided="true" name="title-label" style="left: auto;" />
+    <ui:VisualElement name="authorization-details" style="height: 103px;">
+        <ui:TextField picking-mode="Ignore" label="Username" name="username" />
+        <ui:TextField picking-mode="Ignore" label="Password" value="..." name="password" />
+        <ui:TextField picking-mode="Ignore" label="Client Id" value="..." name="client-id" />
+        <ui:TextField picking-mode="Ignore" label="Client Secret" value="..." name="client-secret" />
+        <ui:Button text="Login" display-tooltip-when-elided="true" name="login-buttton" />
+    </ui:VisualElement>
+    <ui:VisualElement name="project-selection" style="height: 54px; width: 350px; display: none;">
+        <ui:DropdownField label="Projects" index="-1" name="defined-projects" />
+        <ui:Button text="Select" display-tooltip-when-elided="true" name="project-select-button" />
+    </ui:VisualElement>
+    <ui:VisualElement name="project-details" style="display: none;">
+        <ui:TextField picking-mode="Ignore" label="Project name" value="filler text" name="project-name" focusable="false" readonly="true" />
+        <ui:Button text="Change project" display-tooltip-when-elided="true" name="switch-project" />
+        <ui:Label text="Target configurations" display-tooltip-when-elided="true" />
+        <ui:Button text="Refresh" display-tooltip-when-elided="true" name="refresh-configurations" />
+        <ui:ScrollView name="project-configurations-list" style="margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement>
+        <ui:TextField picking-mode="Ignore" label="Username" value="filler text" name="username-input" />
+        <ui:TextField picking-mode="Ignore" label="Password" value="filler text" name="password-input" />
+        <ui:TextField picking-mode="Ignore" label="Client id" value="filler text" name="client-id-input" />
+        <ui:TextField picking-mode="Ignore" label="Secret key" value="filler text" name="client-secret-input" />
+    </ui:VisualElement>
+</ui:UXML>
