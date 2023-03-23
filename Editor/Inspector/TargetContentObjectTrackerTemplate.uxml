@@ -2,8 +2,11 @@
     <ui:Toggle label="Track location" name="ToggleLocation" style="display: none;" />
     <ui:Toggle label="Track rotation" name="ToggleRotation" style="display: none;" />
     <ui:Toggle label="Track scale" name="ToggleScale" style="display: none;" />
-    <ui:Button text="Update target image data" display-tooltip-when-elided="true" name="ButtonUpdateContextImageData" />
+    <ui:Button text="Manage Context Media" display-tooltip-when-elided="true" name="manage-context-media-button" />
     <ui:Button text="New configuration" display-tooltip-when-elided="true" name="ButtonNewConfiguration" />
     <uie:ObjectField label="Configuration" allow-scene-objects="false" usage-hints="None" type="Org.Cortexr.Unity.Models.TargetContentConfigurationSO, CortexrUnityPluginRuntime" name="TargetContentObjectField" />
     <ui:VisualElement name="TargetConfigurationContainer" style="display: none;" />
+    <ui:VisualElement name="media-image" style="display: none; min-width: 128px; min-height: 128px;">
+        <ui:Label text="Context media" display-tooltip-when-elided="true" style="align-items: auto; justify-content: flex-start; -unity-text-align: upper-left; -unity-font-style: bold;" />
+    </ui:VisualElement>
 </ui:UXML>

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6791154204382725747}
   - component: {fileID: 8780877488079434425}
   - component: {fileID: 7933763836787584575}
-  - component: {fileID: 7754517857018207137}
+  - component: {fileID: 1389952428140899346}
   m_Layer: 6
   m_Name: DefaultSuroundingTarget
   m_TagString: Untagged
@@ -99,7 +99,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 2534964839176971238, guid: c7fa2848e855b37469015cb683658a9a, type: 3}
---- !u!114 &7754517857018207137
+--- !u!114 &1389952428140899346
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

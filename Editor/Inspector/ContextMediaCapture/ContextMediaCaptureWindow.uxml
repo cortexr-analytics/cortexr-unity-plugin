@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:VisualElement name="root">
+        <ui:VisualElement name="selection-menu" style="height: auto; width: auto; min-height: 90px;">
+            <uie:ObjectField label="Target Content Tracker" allow-scene-objects="true" name="target-content-tracker" />
+            <ui:Button text="Capture Context Media" display-tooltip-when-elided="true" name="button-load-preview" style="display: flex;" />
+            <ui:Button text="Upload Context Media" display-tooltip-when-elided="true" name="button-upload" style="display: flex;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:ScrollView name="scroll-view-images">
+        <ui:VisualElement name="local-image-parent" style="min-width: 128px; min-height: 416px; width: 100%; height: 100%;">
+            <ui:Label text="Local Media" display-tooltip-when-elided="true" style="-unity-font-style: bold; -unity-text-align: upper-center; font-size: 16px;" />
+            <ui:VisualElement name="media-image-local" style="min-width: 128px; min-height: 384px; width: 100%; height: 100%; margin-left: 10px; margin-right: 10px; margin-top: 10px; margin-bottom: 10px; font-size: 16px; background-image: none; -unity-background-scale-mode: scale-to-fit;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="remote-image-parent" style="min-width: 160px; min-height: 416px; width: 100%; height: 100%;">
+            <ui:Label text="Remote Media" display-tooltip-when-elided="true" style="-unity-font-style: bold; -unity-text-align: upper-center; font-size: 16px;" />
+            <ui:VisualElement name="media-image-remote" style="min-width: 128px; min-height: 384px; width: 100%; height: 100%; margin-left: 10px; margin-right: 10px; margin-top: 10px; margin-bottom: 10px; -unity-background-scale-mode: scale-to-fit; font-size: 16px;" />
+        </ui:VisualElement>
+    </ui:ScrollView>
+</ui:UXML>

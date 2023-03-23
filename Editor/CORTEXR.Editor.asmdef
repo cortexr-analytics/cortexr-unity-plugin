@@ -1,0 +1,28 @@
+{
+    "name": "CORTEXR.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:49f7815e77d77b94c8df846213392933",
+        "GUID:c55d28459d9c4444ebb4788be912e1f1"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Org.Cortexr.dll",
+        "Polly.dll",
+        "Newtonsoft.Json.dll",
+        "Microsoft.IdentityModel.Abstractions.dll",
+        "Microsoft.IdentityModel.Logging.dll",
+        "Microsoft.IdentityModel.Tokens.dll",
+        "Microsoft.IdentityModel.JsonWebTokens.dll",
+        "System.IdentityModel.Tokens.Jwt.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

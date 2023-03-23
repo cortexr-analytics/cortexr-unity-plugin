@@ -1,6 +1,6 @@
 {
   "name": "com.cortexr.analytics",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "displayName": "CORTEXR",
   "description": "This package helps integrates your app with CORTEXR, \nthe metaverse analytics platform.",
   "unity": "2021.1",
@@ -8,7 +8,7 @@
   "changelogUrl": "https://documentation.cortexr/changelog.html",
   "licensesUrl": "https://cortexr.com/terms/",
   "dependencies": {
-    "com.unity.nuget.newtonsoft-json": "2.0.0",
+    "com.unity.nuget.newtonsoft-json": "3.1.0",
     "com.unity.ugui": "1.0.0",
     "com.unity.modules.ui": "1.0.0",
     "com.unity.modules.uielements": "1.0.0"

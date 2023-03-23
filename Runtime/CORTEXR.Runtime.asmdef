@@ -1,0 +1,21 @@
+{
+    "name": "CORTEXR.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "GUID:c55d28459d9c4444ebb4788be912e1f1"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Microsoft.IdentityModel.Abstractions.dll",
+        "Microsoft.IdentityModel.Logging.dll",
+        "Org.Cortexr.dll",
+        "Polly.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
