@@ -1,6 +1,6 @@
 {
   "name": "com.cortexr.analytics",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "displayName": "CORTEXR",
   "description": "This package helps integrates your app with CORTEXR, \nthe metaverse analytics platform.",
   "unity": "2021.1",
